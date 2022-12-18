@@ -7,7 +7,7 @@ def negafibo(num):
     return(-1)**(num-1)*fibo(num)
 
 list = []
-n = 10
+n = 8
 
 for i in range(n+1):
     list.append(negafibo(i))
