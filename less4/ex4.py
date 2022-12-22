@@ -1,5 +1,5 @@
 import random
-k = 5
+k = 6
 c = [random.randint(-100,100) for i in range(0,k+1)]
 print(c)
 
