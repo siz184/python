@@ -1,4 +1,4 @@
-n = num = 12345
+n = 12345
 d = 2
 list_mn = []
 while n > 1:
