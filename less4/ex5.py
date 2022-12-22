@@ -1,11 +1,11 @@
 str1 = ""
 str2 = ""
 
-with open('less5-1.txt', 'r') as file:
+with open('less4-5-1.txt', 'r') as file:
     for line in file:
         str1 = line
 
-with open('less5-2.txt', 'r') as file:
+with open('less4-5-2.txt', 'r') as file:
     for line in file:
         str2 = line
 
@@ -69,5 +69,5 @@ for i in range(max_index, -1, - 1):
 final_text =  ' + '.join(final)    
 final_text = final_text.replace(" + -"," - ")
 
-with open('less5.txt', 'a') as file:
+with open('less4-5.txt', 'a') as file:
     print(final_text, file=file, end=' = 0\n')

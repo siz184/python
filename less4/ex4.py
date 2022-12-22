@@ -16,6 +16,6 @@ def Pol(k,c):
             p+= f'{c[i]} = 0'
     return p
 
-with open ('p.txt', 'w') as data:
+with open ('less4-p.txt', 'w') as data:
     data.write(Pol(k,c).replace('+ -','- '))
 
